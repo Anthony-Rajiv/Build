@@ -14,8 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build
-      run: gcc Hello.c -o a.out
+      run: gcc add.c -o b.out
     - name: Run
-      run: ./a.out
+      run: ./b.out
     
 
